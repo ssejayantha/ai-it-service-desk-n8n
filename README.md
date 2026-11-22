@@ -34,6 +34,19 @@ flowchart TD
 
 The main workflow combines simple rule-based priority with model-suggested priority without reducing the rule-based priority when the AI suggests a lower level.
 
+
+## Download and Import the n8n Workflow
+
+The sanitised 17-node n8n workflow is available for educational and portfolio use.
+
+- [Download n8n Workflow JSON](workflows/ai-it-service-desk-sanitized.json)
+- [View Import and Setup Guide](workflows/IMPORT_SETUP.md)
+
+The workflow includes webhook authentication, JavaScript validation, duplicate detection, OpenAI classification, Google Sheets integration, Gmail notifications, and HTTP 200/400/409 responses.
+
+**Important:** Credentials, spreadsheet identifiers, email recipients and private configuration have been removed. Reconnect your own services after importing. The separate Error Handler workflow is not included.
+  
+
 ## Features
 
 - **Header-authenticated webhook:** A private header secret guards the incoming POST endpoint.
