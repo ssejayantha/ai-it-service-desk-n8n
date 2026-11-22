@@ -137,7 +137,7 @@ The following results were verified during manual testing of the n8n workflows:
 7. Test from the **main workflow canvas** using the Test URL and one request per listening session.
 8. Do not publish a production endpoint until the remaining security and reliability limitations below are addressed.
 
-> **Workflow export not included yet:** To obtain a real, importable JSON file, download it from the n8n canvas menu, sanitize the JSON, and inspect it before committing. A screenshot is not an importable workflow.
+>  To obtain a real, importable JSON file, download it from the n8n canvas menu, sanitize the JSON, and inspect it before committing. A screenshot is not an importable workflow.
 
 ## Security and current limitations
 
