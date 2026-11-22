@@ -1,0 +1,10 @@
+# Keep private artifacts out of the public repository
+.env
+.env.*
+*.secret
+secrets/
+private/
+credentials/
+raw-exports/
+*.log
+# Include only reviewed sanitized workflow exports
